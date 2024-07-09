@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="skills.js"></script>
+    <title>Portfolio-Website</title>
+  </head>
+  <body>
+    <section class="header-section" id="header-section">
+      <div class="header">
+        <ul class="navlist">
+          <li><a href="#header-section">Home</a></li>
+          <li><a href="#about-section">About</a></li>
+          <li><a href="#skills-section">Skills</a></li>
+          <li><a href="#projects-section">Projects</a></li>
+          <li><a href="#contact-section">Contact Me</a></li>
+        </ul>
+        <div class="left-container">
+          <div class="icons">
+            <a
+              href="https://www.facebook.com/pawankumarreddy.p.1?mibextid=JRoKGi"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/vishnu-vardhan-reddy-p-95a5a4256"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a
+              href="https://www.instagram.com/vishnu_vardhan_reddy_7569?igsh=OXc5M2N2amIyNDcx"
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
+          </div>
+          <div class="content">
+            <p class="intro">
+              Hello! I Am <br /><span style="font-size: 40px">Vishnu Vardhan Reddy</span>
+            </p>
+            <p></p>
+            <h1>Front End Developer</h1>
+            <p class="detail" style="font-size: 30px">
+              And I'm a Student at SRM University,<br /><br>
+              Very enthusiastic in Web Development.
+            </p>
+            <div class="btn-container">
+              <button><a href="#contact-section">Hire Me</a></button>
+              <button><a href="#projects-section">View Project</a></button
+              ><br />
+              <a class="cv" href="https://drive.google.com/file/d/1A1SHvHj8alyfEGJeYOFmuWMMZ2inADF1/view?usp=sharing" target="_blank"
+                >Download Resume</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="right-container"></div>
+        <div class="design">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-section">
+      <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <br /><br />
+        <h4>Engineering Student</h4>
+        <br />
+        <p>
+          I am currently a student at SRM University, focusing on my
+          undergraduate studies in Computer Science and Engineering. Embracing
+          the dynamic world of technology, I am driven by a passion for
+          innovation and problem-solving. Through my journey at SRM, I am
+          constantly learning and honing my skills to make meaningful
+          contributions in the field of computer science. With dedication and
+          perseverance, I strive to excel academically and prepare myself for a
+          fulfilling career ahead.
+        </p>
+        <br /><br /><br /><br />
+        <a href="moreabout.html" target="_blank" class="btn-box">More About Me</a>
+      </div>
+    </section>
+
+
+    <section class="skills-section" id="skills-section">
+      <h2>My <span>Skills</span></h2>
+      
+      <div class="technical-skills">
+        <h3>Technical Skills</h3>
+        <div class="skills-container">
+          <div class="skill">
+            <img src="html-logo.webp" alt="HTML Logo" data-skill="html" />
+            <p>HTML</p>
+          </div>
+          <div class="skill">
+            <img src="css-logo.png" alt="CSS Logo" data-skill="css" />
+            <p>CSS</p>
+          </div>
+          <div class="skill">
+            <img src="javascript-logo.png" alt="JavaScript Logo" data-skill="javascript" />
+            <p>JavaScript</p>
+          </div>
+          <div class="skill">
+            <img src="php-logo.png" alt="PHP Logo" data-skill="php" />
+            <p>PHP</p>
+          </div>
+          <div class="skill">
+            <img src="mysql-logo.png" alt="MySQL Logo" data-skill="mysql" />
+            <p>MySQL</p>
+          </div>
+          <div class="skill">
+            <img src="c-logo.png" alt="C Logo" data-skill="c" />
+            <p>C</p>
+          </div>
+          <div class="skill">
+            <img src="cpp-logo.png" alt="C++ Logo" data-skill="cpp" />
+            <p>C++</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="professional-skills">
+        <h3>Professional Skills</h3>
+        <div class="skills-container">
+          <div class="skill">
+            <img src="communication-logo.webp" alt="Communication Logo" data-skill="communication" />
+            <p>Communication</p>
+          </div>
+          <div class="skill">
+            <img src="creative-logo.jpeg" alt="Creativity Logo" data-skill="creativity" />
+            <p>Creativity</p>
+          </div>
+          <div class="skill">
+            <img src="teamwork-logo.png" alt="Teamwork Logo" data-skill="teamwork" />
+            <p>Teamwork</p>
+          </div>
+          <div class="skill">
+            <img src="problemsolving-logo.png" alt="Problem Solving Logo" data-skill="problemsolving" />
+            <p>Problem Solving</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="skillModal" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <p id="modal-description"></p>
+      </div>
+    </div>
+
+    <section id="projects-section">
+      <br /><br /><br /><br /><br />
+      <h1>My <span>Projects</span></h1>
+      <div class="container">
+        <div class="project">
+          <img src="amazon.jpg" alt="Amazon Clone" />
+          <div class="overlay">
+            <div class="content">
+              <h3>Amazon Clone</h3>
+              <br />
+              <p>
+                An Amazon clone project aims to replicate key features of the
+                Amazon e-commerce platform, including user authentication,
+                product listings, shopping cart functionality, and checkout
+                processes. It typically involves creating a responsive web
+                application using technologies like HTML, CSS, JavaScript.
+              </p>
+              <br />
+              <p>Skills used: HTML, CSS, JavaScript</p>
+              <br />
+              <p>Other info: Deployed on https://amazon-clone.web.app/</p>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <img src="TIC-TAC-TOE.jpg" alt="Tic Tac Toe Game" />
+          <div class="overlay">
+            <div class="content">
+              <h3>Tic Tac Toe Game</h3>
+              <br />
+              <p> A simple and fun game that can be played by two players on the
+                same device.The Tic Tac Toe Clone project is a simple yet
+                engaging game that mimics the classic Tic Tac Toe game. 
+                This project is an excellent opportunity to practice programming concepts such as loops,
+                conditionals, and user input handling, making it ideal for
+                beginners looking to enhance their skills in a fun and
+                interactive way.</p>
+              <br />
+              <p>Skills used: HTML, CSS</p>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <img src="carrentalportal.jpg" alt="Car-Rental-Portal" />
+          <div class="overlay">
+            <div class="content">
+              <h3>Car-Rental-Portal</h3>
+              <br />
+              <p>
+                A car rental portal website is an online platform that allows users to search, book, and manage rental vehicles efficiently.
+                Key features include user registration, car listings with detailed information, search and filter options, and a secure booking system.
+                The admin panel enables administrators to manage listings, bookings, and user accounts while providing analytics.
+                The goal is to provide a seamless and secure experience for both customers and administrators.
+              </p>
+              <br />
+              <p>Skills used: HTML, CSS, PHP</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="project-source">
+        <a href="Amazon/Amazon.html" target="_blank">Amazon Clone</a>
+        <a href="TIC-TAC-TOE/TIC-TAC-TOE.html" target="_blank">TIC TAC TOE</a>
+      </div>
+      <br /><br />
+      <div>
+        <p>
+          Are you impressed with my projects. Then come on let's join together
+          for the next projects.
+        </p>
+        <br /><br />
+        <a href="#contact-section" class="btn-box">Contact Me</a>
+      </div>
+    </section>
+
+    <section id="contact-section">
+      <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+        <h4>Let's work Together</h4>
+        <div class="contact-list">
+          <li><i class="bx bxs-send"></i>reddypvishnuvardhan760@gmail.com</li>
+          <li><i class="bx bxs-phone"></i>+91 7569468452</li>
+        </div>
+        <div class="contact-icons">
+          <a href="https://www.facebook.com/pawankumarreddy.p.1?mibextid=JRoKGi" target="_blank">
+            <i class="bx bxl-facebook-circle"></i></a>
+          <a href="https://www.instagram.com/vishnu_vardhan_reddy_7569?igsh=OXc5M2N2amIyNDcx"target="_blank">
+            <i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-whatsapp"></i></a>
+          <a href="https://www.linkedin.com/in/vishnu-vardhan-reddy-p-95a5a4256" target="_blank">
+            <i class="bx bxl-linkedin-square"></i></a>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm" action="#" method="post" onsubmit="return validateForm()">
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required />
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required />
+            <input type="text" id="subject" name="subject" placeholder="Enter Your Subject" />
+            <textarea id="message" name="message" cols="20" rows="10" placeholder="Enter Your Message" required></textarea>
+            <input type="submit" value="Submit" class="send" />
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
